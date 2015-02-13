@@ -40,21 +40,21 @@
 //   "foundation/components/visibility";
 
 $gold: #ffd200;
-
+$leaguegothic: league gothic, "league-gothic", sans-serif;
 .gothify {
-    font-family: league gothic;    
+    font-family: $leaguegothic;    
     text-transform: uppercase;
     color: white;
     margin-top: 75px;
     span {
         color: $gold;
     }
-}
+} 
 
 
 
 .gothifyUC {
-    font-family: league gothic;    
+    font-family: $leaguegothic;    
 
     color: white;
     margin-top: 50px;
@@ -64,7 +64,7 @@ $gold: #ffd200;
 }
 
 .gothifyHeadings {
-    font-family: league gothic;    
+    font-family: $leaguegothic;    
     text-transform: uppercase;
     margin-top: 75px;
     font-size: 5.5rem;
